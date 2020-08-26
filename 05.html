@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{margin: 50px auto;}
+        td{font-size: 14px; text-align: center;}
+        #star1 p{text-align: left;}
+        #star1 p:nth-of-type(2){text-indent: 2em;};
+        .clear::after{clear: both;display: block;content: "";}
+        #star1 span{float: right;}
+        #star1 span{margin-right: 20px;}
+        #star1 span:nth-of-type(2){margin-right: 70px;}
+    </style>
+</head>
+<body>
+    <table border="1" cellspacing="0"width=500px">
+        <tr>
+            <td rowspan="7" width="30px">申请单位及项目基本情况</td>
+            <td width="80px">申请人</td>
+            <td colspan="3" width="100px"></td>
+            <td width="70px">社会信用代码</td>
+            <td width="80px"></td>
+        </tr>
+        <tr>
+            <td height=50px >项目单位法人</td>
+            <td height=50px  width="80px"></td>
+            <td height=50px >经办人</td>
+            <td height=50px width="80px"></td>
+            <td height=50px >联系电话</td>
+            <td height=50px ></td>
+        </tr>
+        <tr>
+            <td height="40px">项目名称</td>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td>工可批准文号、投资及日期</td>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td rowspan="2">施工图主要设计单位</td>
+            <td colspan="3" rowspan="2"></td>
+            <td rowspan="2">施工图设计招标情况</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+            <td height="200px">项目情况基本情况</td>
+            <td colspan="5"></td>
+        </tr>
+        <tr>
+            <td height="80px" colspan="2">申请材料</td>
+            <td colspan="6" style="text-align: left;">《公路建设项目施工图设计文件审批申请表》（本表)<br>             
+                项目可行性研究报告<br>施工图设计的全套文件<br>
+                专家或者委托的审查单位对施工图设计文件的审查意见
+                </td>
+        </tr>
+        <tr>
+            <td height="150px" colspan="7">
+                <div id="star1" class="clear">
+                    <p>申请单位承诺：</p>
+                    <p>保证上述填表内容及提供的申请材料均真实有效。</p>
+                    <p style="text-indent: 2em;">补充内容</p>
+                    <span>申请单位：   （盖章）</span><br>
+                    <span>法人签字：</span><br>
+                    <span style="letter-spacing: 5px;">年 月 日</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

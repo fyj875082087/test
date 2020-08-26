@@ -1,0 +1,112 @@
+1. 一阶段的学习目的：
+
+    制作PC端网页和移动端网页，例如：淘宝网
+
+    通过谷歌浏览器的F12，可以切换到移动端模拟器上（一定要重新刷新一下）
+
+2. 怎么去实现一个网页？
+
+    编程语言：就是一种跟计算机进行沟通的方式。
+
+    语言：HTML + CSS ，让浏览器能够读懂我们要做的事情，从而实现相应的效果。
+
+3. 代码要写到哪里？
+
+    网站与网页的关系：一个网站是由N多个网页组成的。  .html  .html
+
+        首页.html   ->   index.html
+        列表页.html   ->  list.html
+        详情页.html    ->  detail.html
+
+    电视剧 40集。  .mp4 .mp4 ...
+
+4. 编辑器？
+
+    选择的是 vscode
+
+    前端可选的编辑器很多：vscode DW HB webstrom sumlime atom
+
+    下载地址：https://code.visualstudio.com/
+
+    商店中去下载一些插件：中文包、open in browser、power mode
+
+    如何在菜单中去创建文件和创建文件夹。
+    搜索功能：可以搜索代码，并进行替换
+    文件->首选项->设置：设置代码折行（word wrap） 改变文本的大小
+    文件->首选项-> 颜色主题
+
+    ctrl + s : 保存
+    ctrl + x、ctrl + c、ctrl + v : 剪切、复制、粘贴
+    ctrl + a : 全选
+    shift + end : 从头选中一行
+    shift + home : 从尾选中一行
+    shift + alt + 上下键：快速复制一行
+    alt + + 上下键：快速移动一行
+    ctrl + z : 撤销
+    ctrl + y : 还原
+    alt + 光标左键：实现多光标的操作
+    ctrl + d : 快速选中后面一样的代码
+    tab : 向后缩进
+    tab + shift : 向前缩进
+
+5. 浏览器？
+
+    下载chrome浏览器 ：https://www.google.cn/intl/zh-CN/chrome/
+
+6. 深入了解网站开发：
+
+        UI设计师 : 网页先给设计成一个图片
+        web前端 :
+            UI设计的图片 -> 网页  ( 一阶段 )
+            web后端的数据 -> 网页  ( 二阶段，三阶段  )
+            语言：
+                HTML : 结构  
+                CSS : 样式
+                JavaScript : 行为
+        web后端 : 数据操作（数据库）
+
+7. HTML的基本结构与属性？
+
+    HTML ：超文本 标记 语言
+
+        语言：跟浏览器进行沟通
+
+        标记(标签)：<单词>
+
+            <header>
+            <footer>
+            <head>
+            <body>
+
+            标签分为两种写法：
+                1. 单标签 : <input>
+                2. 双标签 : <header></header>
+                注：快捷键：单词 + tab键 -> <单词></单词>
+
+            标签是可以上下写的，也可以嵌套写。
+
+            H5标签元素周期表：http://www.html5star.com/manual/html5label-meaning/
+
+        属性：让标签具备一些特殊功能
+'
+            <标签 属性="值" 属性1="值2">
+
+8. HTML的初始代码？
+
+    快捷键 : ! + tab键
+
+    <!DOCTYPE html> : 文档声明 : 告诉页面，接下来要写html代码了。
+    <html lang="en"> : 根标签：html的最外层标签，包装所有的其他标签
+                      : lang表示当前是什么语言en zh-cn
+        <head>
+            <meta charset="UTF-8">   meta : 元信息（辅助的信息）
+                                UTF-8 ：国际通用编码
+                                gb2312 gbk (了解)
+            <title>Document</title>
+        </head>
+        <body>
+            
+        </body>
+    </html>
+    
+
